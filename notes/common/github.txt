@@ -1,0 +1,33 @@
+git branch - to see current branch
+
+git config --list ( to config your system ).
+
+git config user.name  NAME --global ( same for email )
+
+
+git status: to check git status - committed or  uncommited files 
+
+git commit 
+
+changes
+
+
+ 
+ git remote set-url origin git@github.com:ManthanGajjar/node_practice.git
+
+ git push -u origin master
+
+ git remote rm origin
+
+
+ git add -A 
+ ( add everything )
+
+
+ to update 
+
+ git pull origin master
+
+ What happen when conflict occurs
+
+ command: git mergetool

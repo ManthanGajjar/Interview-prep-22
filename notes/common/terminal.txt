@@ -1,0 +1,39 @@
+
+move file 
+
+MV "FILENAME" PATH ( Must be within that folder )
+
+Move file Back
+
+mv FILENAME ../(PATH)
+if PATH dose not exist then it'll create PATH name kind of file, but if exist then it works normally.
+
+means take FILENAME and move it to PATH ( so it's just rename it because mv command also use to rename.)
+
+sp use this command
+
+MV FILENAME ../
+
+
+To Copy file...
+
+cp FILENAME DIRECTORY
+
+To rename file 
+
+mv FILENAME (EXISTING) NEW_FILENAME
+
+
+To Remove FIle 
+
+rm FILENAME
+
+Remove DIRECTORY ( EMPTY )
+
+rmdir DIRNAME
+
+if DIR is not EMPTY
+
+
+rm -R FOLDERNAME
+

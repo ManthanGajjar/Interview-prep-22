@@ -1,0 +1,15 @@
+LEARN 
+___________________________________________
+blocking code, 
+non blocking code,
+event driven design pattern,
+event life cycle,
+function stack, 
+event queue, 
+bubbling, 
+polyfill, 
+babel,
+git rebase
+git revert
+difference between scss, css and other styling shared by angular
+angular life cycle
