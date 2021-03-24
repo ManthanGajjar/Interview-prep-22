@@ -13,7 +13,7 @@ const PackageListing: FC = () => {
     <div>
       <div className="text-center m-3">{error && <h1> {error} </h1>}</div>
       <div className="text-center m-3">
-        {isLoading && <h1> Loading... </h1>}
+        {isLoading && <h1> Getting Packages... </h1>}
       </div>
       <div className="text-center m-3">
         {data?.searchItem && <h1> No Packaged Found :( </h1>}
@@ -29,7 +29,7 @@ const PackageListing: FC = () => {
                 {index + 1}. <strong>{info?.name.toUpperCase()}</strong>
               </CardHeader>
               <CardBody>
-                <p>{info?.description}</p>
+                <p>{info?.description || "No Description Available..."}</p>
               </CardBody>
               <CardFooter className="text-right">
                 <a target="_blank" href={info?.url} rel="noreferrer">
