@@ -1,0 +1,6 @@
+> how event emitter works
+> why node js, but not PHP and other API technologies
+> is nodejs is secure enough?
+> what is libuv and how it works
+> life cycle of node js.
+> what is closure

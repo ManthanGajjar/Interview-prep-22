@@ -1,0 +1,11 @@
+> what is dependency injection in angular.
+> how to manage states in angular (npm ngxs).
+> what is rxjs and how it works
+> how interceptor works 
+> what is decorators and use of them
+> ngIf and ngHide differentiate
+> what is observable in angular
+> how to pass event from child to parent and parent to child component
+> what is resolver and how to use it with routers ( auth guard methods )
+> life cycle of angular
+> what is webpack and how it works
