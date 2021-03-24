@@ -1,0 +1,6 @@
+> what is static functions ? and use of them
+> map vs reduce vs filter vs find
+> what is bable js and tell use of it.
+> what is DOM
+> use of gulp file
+> use of reactify
