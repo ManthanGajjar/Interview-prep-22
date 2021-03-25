@@ -1,0 +1,19 @@
+> what is before and after in css
+    > ::before: Insert some text before the content of tag which you mentioned
+        > ex: 
+        > p::before {
+             content: "Read this -";
+        }
+    > ::after
+        > same as before but puts content after the tag text finises.
+
+> loops in scss
+    > can perform forEach / for loop, while loop  in scss
+    > syntax
+        $columns: 5;
+            @for $i from 1 through $columns {
+                // defining class and styles
+                .columns-#{$i} {
+                    width: (100% / $i);
+                }
+            }

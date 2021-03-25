@@ -1,0 +1,20 @@
+to speed-up your node app use cluster.
+
+Node.js provides for scaling up the applications is to split a single process into multiple 
+processes or workers, in Node.js terminology. This can be achieved through a cluster module.
+
+
+The cluster module allows you to create child processes (workers), which share all the server
+ports with the main Node process (master).
+
+
+cluster module contain two main method - online and exit.
+
+
+online is emitted when the worker is forked and sends the online message. exit is emitted 
+when a worker process dies. Later, we’ll see how we can use these two events to control
+the lifetime of the workers.
+
+
+The os module contains a cpus() function, which returns an array of CPU cores
+os.cups().length
