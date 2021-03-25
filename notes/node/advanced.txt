@@ -1,10 +1,22 @@
 > how event emitter works
+    > EventEmitter is a class that helps us create a publisher-subscriber pattern in NodeJS.
 > why node js, but not PHP and other API technologies
 > is nodejs is secure enough?
+> ways to make node secure
+    > use lib > helmet 
+        > Helmet helps you secure your Express apps by setting various HTTP headers. It's not a silver bullet, but it can help! 
 > what is libuv and how it works
 > life cycle of node js.
 > what is closure
+    > InnerFunction() can access outerVariable even if it will be executed separately.
+> use of closure -> https://stackoverflow.com/a/2728341 ( to hide private method inside functions )
+> good example of closure -> https://stackoverflow.com/a/39045098
 > what is lexical scoping
+    >  Lexical scope means that in a nested group of functions, the inner functions have access to the variables 
+        and other resources of their parent scope. This means that the child functions are lexically bound to the 
+        execution context of their parents. Lexical scope is sometimes also referred to as static scope.
+
+> Function scope, Block Scope, Lexical Scope => https://stackoverflow.com/a/56374199
 > in built node packages
 > blocking code vs non blocking code
 > event driven design pattern
