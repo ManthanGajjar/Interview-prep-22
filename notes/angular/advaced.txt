@@ -1,11 +1,34 @@
 > what is dependency injection in angular.
 > how to manage states in angular (npm ngxs).
 > what is rxjs and how it works
+    > use to manage states
 > how interceptor works 
 > what is decorators and use of them
 > ngIf and ngHide differentiate
+> what is Change detection strategy in angular
+    > default strategy
+        > check data changes and update for any key from array of obj ( any type of value which we pass from parent to child component using @input)
+    > on push strategy
+        > check data changes for whole array of obj and update only if any obj or array is changes or replaced ( any type of value which we pass from parent to child component using @input)
 > what is observable in angular
+    > a async method which we can subscribe to get the result
 > how to pass event from child to parent and parent to child component
 > what is resolver and how to use it with routers ( auth guard methods )
+    > it's part of ngRX
+    > Managing global and local state.
+    > Integration with the Angular Router.
 > life cycle of angular
 > what is webpack and how it works
+    > mainly compile and build the application ( bundle )
+> what is polyfills.js after angular build
+    > a file which contains some good code to run your web app on different browser platforms
+> what is vendor.js after angular build
+    > contains all the 3rd party lib
+> what is main.js after angular build
+    > contains the logic of the app
+> ngSwitch Example
+> what is service worker
+    ng add @angular/spa
+> use of karma.conf file 
+> how to run build file
+    > npm i http-server, package to run build 

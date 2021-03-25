@@ -1,6 +1,20 @@
 > what is static functions ? and use of them
 > map vs reduce vs filter vs find
 > what is bable js and tell use of it.
-> what is DOM
-> use of gulp file
-> use of reactify
+    > Babel is a JavaScript compiler
+    > Babel can convert JSX syntax!
+    > Babel is a toolchain that is mainly used to convert ECMAScript 2015+ code into a backwards 
+      compatible version of JavaScript in current and older browsers or environments.
+> what is DOM ( DOCUMENT OBJECT MODEL )
+    > The Document Object Model is a cross-platform and language-independent interface that treats 
+        an XML or HTML document as a tree structure wherein each node is an object representing a part of the document
+> use of gulp
+    > gulp is basically a build tools
+    > https://css-tricks.com/gulp-for-beginners/
+    > write tasks in gulpfile.js
+    > We can compile Sass to CSS in Gulp with the help of a plugin called gulp-sass.
+    > $ npm install browser-sync --save-dev for live reloading
+    > we can even optimize images using gulp
+> use of restify?
+    > A Node.js web service framework optimized for building semantically 
+        correct RESTful web services ready for production use at scale. 

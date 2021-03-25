@@ -4,3 +4,13 @@
 > what is libuv and how it works
 > life cycle of node js.
 > what is closure
+> what is lexical scoping
+> in built node packages
+> blocking code vs non blocking code
+> event driven design pattern
+> event life cycle
+> function stack, 
+> event queue
+> bubbling
+> babel
+
