@@ -1,0 +1,6 @@
+> real vs virtual dom
+> why state management is important
+> which one execute first > render or componentDidMount : Render
+> what is MVC & MVVM
+> sql difference between truncate, delete & drop
+> sql rollback
