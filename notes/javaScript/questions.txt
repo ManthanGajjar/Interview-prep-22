@@ -1,0 +1,30 @@
+> What is the difference between Call, Apply and Bind
+    Call: The call() method invokes a function with a given this value and arguments provided one by one
+    Apply: Invokes the function with a given this value and allows you to pass in arguments as an array
+    bind: returns a new function, allowing you to pass any number of arguments
+
+> array splice vs array slice
+    > slice -> return new array from giver array ( start index, end index )
+    > splice -> remove array keys from start index to end index.
+        we can add or remove item using splice 
+
+> lambda is equal to arrow functions
+
+> Higher-order function is a function that accepts another function as an argument or returns a function as a return value or both.
+
+    const firstOrderFunc = () => console.log ('Hello, I am a First order function');
+    const higherOrder = ReturnFirstOrderFunc => ReturnFirstOrderFunc();
+    higherOrder(firstOrderFunc);
+
+> Unary function (i.e. monadic) is a function that accepts exactly one argument. It stands for a single argument accepted by a function.
+
+
+> Hoisting is a JavaScript mechanism where variables and function declarations are moved to the top of their scope before code execution. Remember that JavaScript only hoists declarations, not initialisation.
+
+
+> A Service worker is basically a script (JavaScript file) that runs in the background, separate from a web page and provides features that don't need a web page or user interaction. Some of the major features of service workers are Rich offline experiences(offline first web application development), periodic background syncs, push notifications, intercept and handle network requests and programmatically managing a cache of responses.
+
+
+> IndexedDB is a low-level API for client-side storage of larger amounts of structured data, including files/blobs. This API uses indexes to enable high-performance searches of this data.
+
+> what is pure function

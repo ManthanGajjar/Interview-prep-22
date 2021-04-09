@@ -1,2 +1,5 @@
 > what is reactDom
 > what is react Fragments
+> What is a stateless component?
+> react component that catches error anywhere is => error boundaries 
+> all react component must act like -> pure functions ( a function which returns something and The function application has no side effects. )

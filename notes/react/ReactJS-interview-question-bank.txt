@@ -1,0 +1,9 @@
+What are ReactJS lifecycle methods ?
+How to prevent re-rendering of components ?
+What is the use of ComponentWillUpdate and ComponentDidUpdate ? Which methods we should use for API calls ?
+What is redux ? What is mapstatetoprops and mapdispatchtoprops in react redux ?
+What modules you have used in NodeJs API project ?
+How API routes are organized in NodeJS ?
+What is middleware in API routes ?
+How you are handling file upload in NodeJS and which module you are using for it ?
+How to implement validations in API request in NodeJS ?
