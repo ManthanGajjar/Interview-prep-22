@@ -1,0 +1,8 @@
+> real vs virtual dom
+> why state management is important
+> which one execute first > render or componentDidMount : Render
+> what is MVC & MVVM
+> sql difference between truncate, delete & drop
+> sql rollback
+> promise vs async await, is promise good then async await
+> callback function, why we need it instead of async await 

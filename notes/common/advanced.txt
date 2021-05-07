@@ -1,0 +1,13 @@
+> What is the difference between em and rem units?
+> There are 6 falsy values in JavaScript. They are:
+    false
+    undefined
+    null
+    "" (empty string)
+    NaN
+    0 (both +0 and -0)
+> Lexical scoping refers to when the location of a function's definition determines which variables you have access to.
+     On the other hand, dynamic scoping uses the location of the function's invocation to determine which variables are available.
+
+> Does JavaScript pass by value or by reference?
+> IN JS Arrays are Objects and Objects are compared by reference.

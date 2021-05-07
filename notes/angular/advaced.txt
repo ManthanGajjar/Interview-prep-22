@@ -30,5 +30,10 @@
 > what is service worker
     ng add @angular/spa
 > use of karma.conf file 
+    > Karma is a tool which lets us spawn browsers and run Jasmine tests inside of them all 
+        from the command line. The results of the tests are also displayed on the command line.
+    > Karma can also watch your development files for changes and re-run the tests automatically.
 > how to run build file
     > npm i http-server, package to run build 
+> Purpose of contentChildren Decorator in Angular
+> Purpose of data property in route
