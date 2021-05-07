@@ -35,3 +35,5 @@
     > Karma can also watch your development files for changes and re-run the tests automatically.
 > how to run build file
     > npm i http-server, package to run build 
+> Purpose of contentChildren Decorator in Angular
+> Purpose of data property in route

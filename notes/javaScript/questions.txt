@@ -28,3 +28,7 @@
 > IndexedDB is a low-level API for client-side storage of larger amounts of structured data, including files/blobs. This API uses indexes to enable high-performance searches of this data.
 
 > what is pure function
+
+
+> use of window.addEventListener
+> Understanding This, Bind, Call, and Apply in JavaScript

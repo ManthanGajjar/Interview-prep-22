@@ -1,0 +1,5 @@
+> To index a field that hold value as array , what type of index is created ? 
+    > Multikey
+
+> SQL vs No SQL are which type of scalable database?
+    >  vertical, horizontally, infinitely
