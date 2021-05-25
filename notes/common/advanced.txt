@@ -11,3 +11,6 @@
 
 > Does JavaScript pass by value or by reference?
 > IN JS Arrays are Objects and Objects are compared by reference.
+> What is HTTP, and use of HTTP also it’s stateless or statefull ? Explain why
+> What is TCP IP and use of it
+> How to use loops and constructor inside sass file

@@ -1,5 +1,7 @@
 > what is reactDom
 > what is react Fragments
-> What is a stateless component?
+> What is a stateless component (ref: https://www.youtube.com/watch?v=SEkfzqIgvTo )?
+    > export as const ( not class component )
+    > use this component if you don't need states
 > react component that catches error anywhere is => error boundaries 
 > all react component must act like -> pure functions ( a function which returns something and The function application has no side effects. )

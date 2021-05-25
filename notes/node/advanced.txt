@@ -26,6 +26,7 @@
    > within the inner function, "this" refers to the object calling the inner function while
     "self" refers to the object which called the outer function to create the reference to the inner function.
 > in built node packages
+> how redis works 
 > An anonymous function is a function without a name
 > js is not case-sensitive
 > blocking code vs non blocking code
