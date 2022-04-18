@@ -1,0 +1,93 @@
+OOPS:- 
+
+      Oops concept 
+
+      Explain Inheritance and example 
+
+      Explain Polymorphism and example 
+
+      What is class and example 
+
+      If there is a class Car, then what all will be its properties. 
+
+ 
+
+HTML:- 
+
+      Diff in HTML and HTML 5 
+
+      What is Doctype 
+
+      Validations in HTML element 
+
+      Disable all the HTML elements validation 
+
+ 
+
+CSS:- 
+
+      Any Framework used? 
+
+      Visibility:hidden vs display:none 
+
+ 
+
+JS:- 
+
+      Var vs let 
+
+      Let vs const 
+
+      Session storage vs local storage 
+
+      Var, let, const practical test  
+
+ 
+
+React:- 
+
+      Advantages of React 
+
+      Lifecycle  
+
+      How to stop re-render 
+
+      How does Pure.Component works in restricting re-rendering 
+
+      What is Virtual Dom 
+
+      How it is better? 
+
+      Disadvantages of React 
+
+      Any state management tool 
+
+      If we want to pass data from one component to another, then how can we pass. 
+
+      If we want to pass data among the components (independent component). 
+
+      Are props mutable? 
+
+      Context Api 
+
+      What is redux 
+
+ 
+
+Node 
+
+      What is Nodejs 
+
+      Event looping 
+
+      How to connect to mongoose 
+
+      How to define api routes 
+
+      Any authentication used?  
+
+      Middleware 
+
+      Aggregate 
+
+      Validation in schema designing 
