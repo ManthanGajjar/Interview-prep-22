@@ -1,0 +1,135 @@
+React
+
+
+
+https://dev.to/sakhnyuk/300-react-interview-questions-2ko4
+
+
+- [ ] Which is the first file is going to be called on project start
+    - [ ] index.tsx ( basically a file which initialise ReactDOM )
+- [ ] What are hooks and why you need them in react
+- [ ] Which one call first - render or useEffect? Why?
+- [ ] Difference between functional and class component
+- [ ] Best way to manage states in react
+- [ ] React is single page application?
+- [ ] How to setup route in react
+- [x] How to setup react project
+- [x] Current version of react
+- [ ]  RxJS: Reactive Extensions For JavaScript 
+    - [ ] RxJS (Reactive Extensions for JavaScript) is a library for reactive programming using observables that makes it easier to compose asynchronous or callback-based code.
+> what is reactDom
+	> ReactDOM is a package that provides DOM specific methods that can be used at the top level of a web app to enable an efficient way of managing DOM elements of the web page.
+> what is react Fragments
+	>  Fragments let you group a list of children without adding extra nodes to the DOM
+	> 	1	Fragments are a bit faster and use less memory by not creating an extra DOM node. This only has a real benefit on very large and deep trees.
+
+
+StrictMode currently helps with:
+* Identifying components with unsafe lifecycles
+* Warning about legacy string ref API usage
+* Warning about deprecated findDOMNode usage
+* Detecting unexpected side effects
+* Detecting legacy context API
+* Detecting unsafe effects
+
+
+> What is a stateless component?
+	> a component which Does not have any state, it just accept props if there’s any and just return the content (no lifecycle at all and no render method at all )
+> react component that catches error anywhere is => error boundaries 
+> all react component must act like -> pure functions (https://dev.to/aminejvm/pure-functions-with-typescript-51ig) ( a function which returns something and The function application has no side effects. )
+> what is side effect
+	> A side-effect is a function that interacts with the external world, writing to a database, changing the value of variable outside of its context, logging to console, changing the dom…
+> What are ReactJS lifecycle methods ?
+> How to prevent re-rendering of components ?
+	> If you're using a React class component you can use the shouldComponentUpdate method or a React. PureComponent class extension to prevent a component from re-rendering.
+	> Use React. memo() (https://reactjs.org/docs/react-api.html) to prevent re-rendering on React function components.
+> what is react.memo used for
+	> to stop multiple re rendering
+	> reset memo execute only on props change
+	> it checks like if there’s props change then only re render the component else use the last re rendered component
+	> React.memo(function MyComponent(props) { }) 
+> What is the use of ComponentWillUpdate and ComponentDidUpdate ? Which methods we should use for API calls ?
+> What is redux ? What is mapstatetoprops and mapdispatchtoprops in react redux ?
+	> The mapStateToProps and mapDispatchToProps deals with your Redux store's state and dispatch , respectively. state and dispatch will be supplied to your mapStateToProps or mapDispatchToProps functions as the first argument.
+> what is public/manifest.json user
+	manifest.json is the json file that is mostly used to describe our app On mobile phones
+> What are Higher-Order Components?
+	>  A higher-order component (HOC) is a function that takes a component and returns a new component.
+	> We call them pure components because they can accept any dynamically provided child component but they won't modify or copy any behavior from their input components.
+> What is children prop? ( props.children )
+	> it allows you to pass component as data to other component
+
+
+> Why React uses className over class attribute?
+	> class is a keyword in JavaScript, and JSX is an extension of JavaScript. That's the principal reason why React uses className instead of class. Pass a string as the className prop.
+
+> How to apply validation on props in React?
+	> using typescript we can create interface
+> react-dom/server for SSR
+> CRA = create react app
+> 
+
+
+> react-dom package provides DOM-specific methods that can be used at the top level of your app. Most of the components are not required to use this module. Some of the methods of this package are:
+    1. render()
+    2. hydrate()
+    3. unmountComponentAtNode()
+    4. findDOMNode()
+    5. createPortal()
+
+
+> What will happen if you use setState() in constructor?
+	> When you use setState(), then apart from assigning to the object state React also re-renders the component and all its children. You would get error like this: Can only update a mounted or mounting component. So we need to use this.state to initialize variables inside constructor.
+
+
+
+
+
+> React uses VirtualDOM instead of RealDOM 
+	> A virtual DOM object has the same properties as a real DOM object, but it lacks the real thing's power to directly change what's on the screen.
+	> The Virtual DOM (VDOM) is an in-memory representation of Real DOM. The representation of a UI is kept in memory and synced with the "real" DOM.
+	> The Shadow DOM is a browser technology designed primarily for scoping variables and CSS in web components. The Virtual DOM is a concept implemented by libraries in JavaScript on top of browser APIs.
+
+> React Follows Unidirectional data flow or data binding.
+
+> React.PureComponent is exactly the same as React.Component except that it handles the shouldComponentUpdate() method for you.
+	> Use shouldComponentUpdate() to let React know if a component’s output is not affected by the current change in state or props. 
+> Props are inputs to components.
+> If you try to update state directly then it won't re-render the component.
+
+> What are synthetic events in React?
+	> SyntheticEvent is a cross-browser wrapper around the browser's native event. It's API is same as the browser's native event, including stopPropagation() and preventDefault(), except the events work identically across all browsers.
+>  What is the use of refs?
+	> The ref is used to return a reference to the element. They should be avoided in most cases, however, they can be useful when you need a direct access to the DOM element or an instance of a component.
+> A component that controls the input elements within the forms on subsequent user input is called Controlled Component
+
+> react lifecycle by execution
+	> componentWillMount
+	> componentDidMount
+	> componentWillReceiveProps
+	> shouldComponentUpdate
+	> componentWillUpdate
+	> componentDidUpdate
+	> componentWillUnmount
+
+
+The goal of React Fiber is to
+	> increase its suitability for areas like animation, layout, gestures, ability to pause, abort, or reuse work and assign priority to different types of updates; and new concurrency primitives.
+
+Why is React a library and not a framework?
+> React was made to build full-fledged web applications. As a result, it's often compared with other tools that developers use to build apps, like Angular, Vue, and Svelte.
+	> everything that you need to make a complete application is included in your Angular project when it's generated. But that is not the case with React.
+
+
+What is the difference between Shadow DOM and Virtual DOM? 	> The Shadow DOM is a browser technology designed primarily for scoping variables and CSS in web components. 
+	> The Virtual DOM is a concept implemented by libraries in JavaScript on top of browser APIs.
+
+
+
+Static Type Checking with react
+	> Flow is a static type checker for your JavaScript code. It is developed at Facebook and is often used with React. It lets you annotate the variables, functions, and React components with a special type syntax, and catch mistakes early. You can read an introduction to Flow to learn its basics. (https://reactjs.org/docs/static-type-checking.html)
+
+
+
+
+
