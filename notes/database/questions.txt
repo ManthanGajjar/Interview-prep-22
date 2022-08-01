@@ -2,4 +2,7 @@
     > Multikey
 
 > SQL vs No SQL are which type of scalable database?
-    >  vertical, horizontally, infinitely
+    >  vertical, horizontally, infinitely (https://www.youtube.com/watch?v=xpDnVSmNFX0)
+
+> what is load balancing (ref: https://www.youtube.com/watch?v=K0Ta65OqQkY )?
+    > if there is more then one server and  traffic is immense then we need to use load balancing to manage load for each server to process each request.

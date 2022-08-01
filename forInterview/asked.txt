@@ -1,4 +1,6 @@
 > real vs virtual dom
+    > https://reactkungfu.com/2015/10/the-difference-between-virtual-dom-and-dom/
+    > The Virtual DOM is an abstraction of the HTML DOM.
 > why state management is important
 > which one execute first > render or componentDidMount : Render
 > what is MVC & MVVM

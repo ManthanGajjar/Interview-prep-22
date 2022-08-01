@@ -37,3 +37,7 @@
     > npm i http-server, package to run build 
 > Purpose of contentChildren Decorator in Angular
 > Purpose of data property in route
+> what is http interceptor 
+> can we define two module in one module file ?
+> what is lazy loading
+> use of :host in angular

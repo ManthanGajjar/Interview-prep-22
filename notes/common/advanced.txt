@@ -1,4 +1,5 @@
 > What is the difference between em and rem units?
+    > While em is relative to the font-size of its direct or nearest parent, rem is only relative to the html (root) font-size.
 > There are 6 falsy values in JavaScript. They are:
     false
     undefined
@@ -10,4 +11,13 @@
      On the other hand, dynamic scoping uses the location of the function's invocation to determine which variables are available.
 
 > Does JavaScript pass by value or by reference?
+    > It's always pass by value, but for objects the value of the variable is a reference.
 > IN JS Arrays are Objects and Objects are compared by reference.
+> What is HTTP, and use of HTTP also it’s stateless or statefull ? Explain why
+> What is TCP IP and use of it
+    > TCP stands for Transmission Control Protocol a communications standard that enables application programs and computing devices to exchange messages over a network.
+> How to use loops and constructor inside sass file
+> what is npm-shrinkwrap?
+    > NPM shrinkwrap lets you lock down the versions of installed packages and their descendant packages. It helps you use same package versions on all environments (development, staging, production) and also improve download and installation speed
+> what is TDD (Test Driven Development) approach
+    > In layman's terms, Test Driven Development (TDD) is a software development practice that focuses on creating unit test cases before developing

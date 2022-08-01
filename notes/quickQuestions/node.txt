@@ -1,0 +1,6 @@
+- [ ] Node js is async ?
+    - [ ] yes
+- [ ] Javascript is async ?
+    - [ ] No
+- [ ] Node & Javascript are single threaded ?
+    - [ ] Yes
