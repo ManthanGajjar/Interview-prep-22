@@ -8,3 +8,24 @@
 > sql rollback
 > promise vs async await, is promise good then async await
 > callback function, why we need it instead of async await 
+> Binary search
+
+// node and react interview questions 
+
+
+> Hoisting in Java script
+> Difference between == & ===
+> Bind property
+> Classes in Java script
+> Example of classes in Node js
+> Generator function in Java script
+> Spread operator in Java script
+> Strict mode in react
+> Ways to style components in react
+> Higher order components
+> React life cycle
+> React hooks
+> Ways to optimise react app
+
+
+
