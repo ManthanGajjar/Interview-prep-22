@@ -1,0 +1,24 @@
+- [ ] understand Node - https://nodejs.org/en/ 
+    - [ ] Definition
+    - [ ] Why node js?
+    - [ ] What is NPM? Find a way to install packages using NPM/Yarn
+    - [ ] What is single threaded?
+    - [ ] Event loop
+    - [ ] How node works under the hood? Using libuv
+    - [ ] What is V8 engine
+    - [ ] Some in built methods of node (advance)
+        - [ ] FS (buffers, streams and it’s basic definition with usage)
+- [ ] understand typescript - https://www.typescriptlang.org/
+    - [ ] Different between typescripts and javascript 
+    - [ ] Typescript advantages over javascript
+- [ ] Get familiar with node’s frameworks
+    - [ ] Difference between library and framework
+    - [ ] (Commonly used) Express JS - https://expressjs.com/
+    - [ ] Nest JS - https://nestjs.com/
+    - [ ] Adonis JS - https://adonisjs.com/
+    - [ ] Sails JS - https://sailsjs.com/
+- [ ] Something about databases
+    - [ ] MongoDB -  https://www.mongodb.com/
+    - [ ] SQL
+    - [ ] Postgres
+    - [ ] Firebase (maybe)
