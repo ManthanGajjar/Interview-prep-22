@@ -5,3 +5,4 @@
     > use this component if you don't need states
 > react component that catches error anywhere is => error boundaries 
 > all react component must act like -> pure functions ( a function which returns something and The function application has no side effects. )
+> what is use of React.useMemo
