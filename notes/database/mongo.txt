@@ -1,0 +1,157 @@
+Aggregates
+
+
+
+
+Aggregation is a way of processing a large number of documents in a collection by means of passing them through different stages.
+
+
+
+- [ ] $unwind
+    - [ ] preserveNullAndEmptyArrays
+    - [ ] Path
+- [ ] $dateToString
+    - [ ] date: ‘actual date via (access $ sign)
+    - [ ] Format = the format you want to apply (ie. “%Y-%m-%d”)
+- [ ] $sum
+    - [ ] To sum the rows or any value ( used in group only )
+- [ ] $ifNull ( we can use it in $project ) + $size
+    - [ ] Verifies if there’s null value then allow you to set default value
+
+``` 
+ $ifNull: [{
+                                        $size: "$likeDetail.userIds"
+                 }, 0]
+
+
+OR
+
+
+{ $ifNull: [ "$mobile", null]}
+
+
+
+```
+
+- [ ] $cond ( we can use it in $project )
+
+```
+$cond: {
+                                if: { $isArray: "$createdPosts"},
+                                then: { $size: "$createdPosts"  },
+                                else: 0
+                        }
+
+
+OR
+
+
+   $cond: {
+                            if: { $and: [ {  $isArray: {$arrayElemAt: ["$followers.followers", 0]} } ] },
+                            then: { $size: {$arrayElemAt: ["$followers.followers", 0]} } ,
+                            // tslint:disable-next-line:object-literal-sort-keys
+                            else: 0,
+                        },
+
+
+```
+
+
+- [ ] Concat - Concatenates strings and returns the concatenated string.
+
+```
+
+{ $concat: ['google', "$userAttachments.name"] }
+
+
+```
+
+
+- [ ] $isArray
+    - [ ] To verify its array or not
+- [ ] arrayElemAt
+    - [ ] Check it array contains value at specific index
+
+```
+	$arrayElemAt: ["$likedPost.userIds", 0]
+
+```
+
+
+- [ ] In $lookup we can do pipeline as well
+
+like this…
+
+```
+
+        $lookup: {
+            from: 'comments',
+            as: 'comments',
+            let: {
+                postId: "$_id"
+            },
+            pipeline: [
+			// EXTRA PIPELINE like match, group etc…
+            ]
+        }
+
+
+```
+
+
+
+- [ ] $facet
+	
+Processes multiple aggregation pipelines within a single stage on the same set of input documents. Each sub-pipeline has its own field in the output document where its results are stored as an array of documents.
+
+
+```
+
+ $facet: {
+                            result: [{ $limit: 1 }],
+                            totalCount: [
+                                {
+                                    $count: 'count',
+                                },
+                            ],
+                    }
+
+```
+
+- [ ] $expr
+
+Allows the use of aggregation expressions within the query language.
+
+( we can write extra aggregate expression in this pipeline )
+
+Example
+
+```
+
+db.monthlyBudget.find( { $expr: { $gt: [ "$spent" , "$budget" ] } } )
+
+```
+
+
+
+- [ ] $or + $regex
+
+We can write to get OR cond...
+
+Example...
+
+```
+
+ {
+       $match: {
+           $or: [
+            { "usersDetail.userName": { $regex: 'manthan', $options: "i"} },
+           ]
+       }
+    },
+
+
+```
+
+
+
